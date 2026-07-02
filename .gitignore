@@ -1,0 +1,42 @@
+# ── Secrets ─────────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Sample / upload data ─────────────────────────────────────────────────────
+data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.sas7bdat
+*.dta
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# ── Node / Next.js ───────────────────────────────────────────────────────────
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+tsconfig.tsbuildinfo
+
+# ── OS / editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
